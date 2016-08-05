@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="GithubAPI.css">
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Gravitas+One" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="GithubAPI.js"></script>
+</head>
+<body>
+  <div class="container text-center search">
+  <h1>Github API search</h1>
+<input id="query" type="text" placeholder="Enter Github username" required><br/>
+<button id="ghrepo" >Get User+Repo data</button>
+</div>
+<br>
+<div class='container text-center'>
+<div class="hidden opt">
+<button class="byContri">Sort by no. of Contributions</button><button class="byFollow">Sort by no. of Followers</button><button class="byRepo">Sort by no. of Repositories</button><button class="byGist">Sort by no. of Gists</button>
+</div>
+</div>
+<div class='container '>
+<div class="Githubdata">
+</div>
+  <footer class="text-center">Developed by <a class="blink" href="https://twitter.com/hashtagUzma" target="_blank">Uzma</a></footer>
+</div>
+</body>
+</html>
