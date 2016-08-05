@@ -24,7 +24,7 @@ Angular repositories, by amount of followers, public repos & gists he/she publis
 
 
 ```
-#!html
+#!html5
 
 <!DOCTYPE html>
 <html>
